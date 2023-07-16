@@ -1,0 +1,176 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+  padding-top: 55px;
+  background-color: #C2DEDC;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family:  'Montserrat-Bold';
+  color: black;
+  text-align: left;
+}
+
+p{
+  color: white;
+}
+
+/* Navbar */
+
+.bg-custom {
+  background-image: url("i.jpg");
+  background-size: cover;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: 5rem;
+}
+
+.nav-link {
+  color: #fff;
+  margin-right: 2rem;
+}
+
+/* Header */
+.jumbotron {
+  background-image: url("i.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 4rem;
+  height: 37.2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.big-heading h1 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.big-heading p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Section 01 */
+.visibility-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.visibility-content {
+  flex: 1;
+  max-width: 700px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+.visibility-section .visibility-content p {
+      color: black;
+    }
+
+.visibility-section .visibility-content h2 {
+      color: #4942E4;
+    }
+
+.visibility-image {
+  flex: 1;
+  text-align: center;
+}
+
+.visibility-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .visibility-section {
+    flex-direction: column;
+  }
+
+  .visibility-image {
+    margin-top: 20px;
+  }
+}
+
+
+/* Section 2 */
+.s2h{
+  color: #4942E4;
+  padding: 20px 0;
+}
+
+.services{
+margin: 20px;
+}
+
+.benefits__image{
+  margin: 12px;
+}
+
+.services p {
+  color: black;
+  justify-content: center;
+}
+
+/* Common styles */
+.benefits__benefit {
+  transition: transform 0.3s;
+  padding: 25px;
+}
+
+.benefits__benefit:hover {
+  transform: scale(1.05);
+}
+
+.benefits__benefit__info {
+  padding-left: 20px;
+}
+
+.benefits__subhead {
+  font-weight: bold;
+}
+
+/* Hover effect */
+.benefits__benefit:hover .benefits__image {
+  transform: scale(1.1);
+}
+
+/* Optional: Customize the hover effect */
+.benefits__benefit:hover .benefits__subhead {
+  color: #ff5f5f; /
+}
+
+.benefits__benefit:hover .benefits__text {
+  opacity: 0.8;
+}
+
+/* Footer */
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 1.5rem;
+}
+
+.ab {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+}
+
+.container-fluid{
+  text-align: center;
+}
+
+#footer .ab:hover {
+  fill: #FEFF86;
+  transform: scale(1.2);
+}
